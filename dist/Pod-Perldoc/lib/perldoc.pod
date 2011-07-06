@@ -183,7 +183,7 @@ L<Pod::Perldoc>.
 =item B<PageName|ModuleName|ProgramName>
 
 The item you want to look up.  Nested modules (such as C<File::Basename>)
-are specified either as C<File::Basename> or C<File/Basename>.  You may also
+are specified either as C<File::Basename> or C<< File/Basename >>.  You may also
 give a descriptive name of a page, such as C<perlfunc>.
 
 For simple names like 'foo', when the normal search fails to find
