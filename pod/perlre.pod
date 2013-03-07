@@ -2509,6 +2509,9 @@ C<${1}000>.  The operation of interpolation should not be confused
 with the operation of matching a backreference.  Certainly they mean two
 different things on the I<left> side of the C<s///>.
 
+For the curious, the C</e> modifier is explained in the 'Search and Replace'
+section of L<perlretut>.
+
 =head2 Repeated Patterns Matching a Zero-length Substring
 
 B<WARNING>: Difficult material (and prose) ahead.  This section needs a rewrite.
